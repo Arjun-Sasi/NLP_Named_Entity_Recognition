@@ -243,9 +243,7 @@ for bigram, count in sorted(common_bigram_dict.items(), key=lambda x: x[1], reve
 # 
 # This code is performing some exploratory data analysis on a dataset of text files. First, it counts the frequency of each token (individual word) in the dataset and prints the top 10 most common tokens. Then, it calculates the distribution of labels (names of the text files) in the dataset and plots a bar chart to visualize the distribution. Finally, it calculates the most common tokens used in each label and plots a bar chart for each label to visualize the results. This can help us understand the characteristics of each label and the words that are most indicative of them. Additionally, the code also calculates the most common bigrams (two consecutive tokens) used in each label and plots a bar chart for each label to visualize the results. This can help us understand which pairs of words are most indicative of each label.
 
-# ## Suggestions
-
-# In[4]:
+# ## Suggestion ( Based on the Limited Dataset )
 
 
 # 1) One way to enrich the dataset is by adding additional external data. 
