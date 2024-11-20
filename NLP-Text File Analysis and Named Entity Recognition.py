@@ -1,14 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ## Executive Summary
-# 
-# This code reads in text files from a directory and performs some exploratory data analysis on the resulting dataset. It begins by setting the directory path to the current working directory and initializing lists to hold the data (contents from .txt files) and labels (names of the text files). The code then reads the contents of each text file, performs some cleaning and preparation on the data (such as replacing newline characters with spaces, removing punctuation, converting to lowercase, tokenizing, removing stop words, and stemming), and adds the cleaned and prepared data and the label to the appropriate lists. Once the loop has finished, the code prints some basic information about the dataset (number of files, number of tokens, number of labels, and unique labels) and performs some exploratory data analysis on the dataset. This includes counting the frequency of each token in the dataset and printing the top 10 most common tokens, calculating the distribution of labels in the dataset and plotting a bar chart to visualize the results, and calculating the most common tokens used in each label and plotting a bar chart to visualize the results. Overall our Analysis done helps to understand the contents and characteristics of a dataset  from text files.
-
-# ## Data Cleaning and Preparations
-# 
-
-# In[1]:
 
 
 # Below we import  necessary libraries
